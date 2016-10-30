@@ -5,14 +5,14 @@ android {
     buildToolsVersion "24.0.3"
     defaultConfig {
         applicationId "japantaxi.co.jp.canutils"
-        minSdkVersion 19
-        targetSdkVersion 23
+        minSdkVersion 17
+        targetSdkVersion 19
         versionCode 1
-        versionName "1.0"
+        versionName "0.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
-                cppFlags ""
+                cppFlags "-fexceptions"
             }
         }
     }
